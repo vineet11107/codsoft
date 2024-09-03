@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: #bdbdbd;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.time-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    width: 80px;
+}
+
+.time-box p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #bdbdbd;
+}
+
+.time-box span {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.buttons {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #182848 0%, #4b6cb7 100%);
+}
+
+.social-icons {
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
